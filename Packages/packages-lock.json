@@ -1,5 +1,13 @@
 {
   "dependencies": {
+    "com.payosky.nomaiframework": {
+      "version": "file:com.payosky.nomaiframework",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.test-framework": "1.6.0"
+      }
+    },
     "com.unity.ext.nunit": {
       "version": "2.1.0",
       "depth": 1,
