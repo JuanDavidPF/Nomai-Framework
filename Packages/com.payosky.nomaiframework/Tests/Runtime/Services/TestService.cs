@@ -10,7 +10,7 @@ namespace NomaiFramework.Tests.Services
     /// and exposes its type signature for identification purposes.
     /// </summary>
     [Serializable]
-    public sealed class TestService : IService
+    internal sealed class TestService : IService
     {
         public Type TypeSignature => typeof(TestService);
 

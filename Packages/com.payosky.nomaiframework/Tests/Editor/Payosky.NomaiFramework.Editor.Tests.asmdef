@@ -3,7 +3,8 @@
     "rootNamespace": "",
     "references": [
         "UnityEditor.TestRunner",
-        "Payosky.NomaiFramework"
+        "Payosky.NomaiFramework",
+        "Payosky.NomaiFramework.Editor"
     ],
     "includePlatforms": [
         "Editor"

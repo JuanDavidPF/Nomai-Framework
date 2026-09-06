@@ -2,7 +2,7 @@
     "name": "Payosky.NomaiFramework.Editor",
     "rootNamespace": "",
     "references": [
-        "JuanDavid2535323.NomaiFramework"
+        "Payosky.NomaiFramework"
     ],
     "includePlatforms": [
         "Editor"

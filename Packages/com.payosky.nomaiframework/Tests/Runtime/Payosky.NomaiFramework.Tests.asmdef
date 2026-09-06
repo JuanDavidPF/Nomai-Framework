@@ -2,9 +2,7 @@
     "name": "Payosky.NomaiFramework.Tests",
     "rootNamespace": "",
     "references": [
-        "JuanDavid2535323.NomaiFramework",
         "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner",
         "Payosky.NomaiFramework"
     ],
     "includePlatforms": [],

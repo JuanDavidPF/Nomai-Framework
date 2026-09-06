@@ -19,6 +19,13 @@ namespace NomaiFramework.Services
 
         public static T AddService<T>(T service) where T : IService
         {
+            if (service == null) {
+#if UNITY_ENABLE_CHECKS
+                Debug.LogWarning("Service to add is null!");
+#endif
+                return default;
+            }
+
             if (Services.TryAdd(service.TypeSignature, service)) {
                 service.Load();
 
@@ -64,6 +71,13 @@ namespace NomaiFramework.Services
 
         public static void RemoveService(IService service)
         {
+            if (service == null) {
+#if UNITY_ENABLE_CHECKS
+                Debug.LogWarning("Service to remove is null!");
+#endif
+                return;
+            }
+
             if (!Services.TryGetValue(service.TypeSignature, out IService registeredService)) return;
             if (!ReferenceEquals(service, registeredService)) return;
 
