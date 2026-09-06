@@ -6,7 +6,9 @@
   "unityRelease": "0f1",
   "description": "ote: Special formatting characters are supported, including line breaks ('\\n') and bullets ('\\u25AA').",
   "dependencies": {
-    "com.unity.test-framework": "1.6.0"
+    "com.unity.test-framework": "1.6.0",
+    "com.mackysoft.serializereference-extensions": "1.7.0",
+    "com.cysharp.unitask": "2.5.11"
   },
   "author": {
     "name": "Payosky",

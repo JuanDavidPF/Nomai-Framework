@@ -2,10 +2,8 @@
     "name": "Payosky.NomaiFramework.Editor.Tests",
     "rootNamespace": "",
     "references": [
-        "JuanDavid2535323.NomaiFramework.Editor",
-        "JuanDavid2535323.NomaiFramework",
-        "UnityEngine.TestRunner",
-        "UnityEditor.TestRunner"
+        "UnityEditor.TestRunner",
+        "Payosky.NomaiFramework"
     ],
     "includePlatforms": [
         "Editor"

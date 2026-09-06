@@ -1,11 +1,27 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "ceac8d6946b1125fe782cd171fbcb245b567dbf9"
+    },
+    "com.mackysoft.serializereference-extensions": {
+      "version": "https://github.com/mackysoft/Unity-SerializeReferenceExtensions.git?path=Assets/MackySoft/MackySoft.SerializeReferenceExtensions",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "5fadcb6564f0c6e988641e2e4a4aba4b6b1caafe"
+    },
     "com.payosky.nomaiframework": {
       "version": "file:com.payosky.nomaiframework",
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.unity.test-framework": "1.6.0"
+        "com.unity.test-framework": "1.6.0",
+        "com.mackysoft.serializereference-extensions": "1.7.0",
+        "com.cysharp.unitask": "2.5.11"
       }
     },
     "com.unity.ext.nunit": {
@@ -40,6 +56,16 @@
         "com.unity.ext.nunit": "2.1.0",
         "com.unity.modules.imgui": "1.0.0",
         "com.unity.modules.jsonserialize": "1.0.0"
+      }
+    },
+    "com.unity.ui.test-framework": {
+      "version": "6.6.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.ext.nunit": "2.0.3",
+        "com.unity.modules.imgui": "1.0.0",
+        "com.unity.modules.uielements": "1.0.0"
       }
     },
     "com.unity.modules.accessibility": {
