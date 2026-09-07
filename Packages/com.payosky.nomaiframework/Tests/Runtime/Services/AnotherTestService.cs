@@ -10,7 +10,7 @@ namespace NomaiFramework.Tests.Services
     /// and disposal operations while tracking its load and dispose counts for diagnostic purposes.
     /// </summary>
     [Serializable]
-    public sealed class AnotherTestService : IService
+    internal sealed class AnotherTestService : IService
     {
         public Type TypeSignature => typeof(AnotherTestService);
 

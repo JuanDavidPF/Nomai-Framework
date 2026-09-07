@@ -11,8 +11,9 @@ namespace NomaiFramework.EventBus
     /// <typeparam name="TPayload">
     /// The type of event payload the listener handles. Must implement the <see cref="IEvent"/> interface.
     /// </typeparam>
-    public sealed class EventListener<TPayload> : IEventListener, IDisposable where TPayload : IEvent
+    public sealed class EventListener<TPayload> : IEventListener where TPayload : IEvent
     {
+        public event Action<IEvent> OnEventTriggered;
         public Type PayloadType => typeof(TPayload);
         public TPayload Payload { get; private set; }
 
@@ -30,6 +31,7 @@ namespace NomaiFramework.EventBus
             if (payload is TPayload castedPayload) {
                 Payload = castedPayload;
                 _callback?.Invoke(castedPayload);
+                OnEventTriggered?.Invoke(castedPayload);
             }
 #if UNITY_ENABLE_CHECKS
             else {
