@@ -1,0 +1,29 @@
+{
+  "name": "com.payosky.nomai-framework",
+  "displayName": "Nomai Framework",
+  "version": "0.1.1",
+  "unity": "6000.0",
+  "description": "A framework designed around Clean Architecture principles, with enough flexibility and scalability to bootstrap projects quickly without compromising architectural integrity.",
+  "license": "MIT",
+  "dependencies": {
+    "com.unity.test-framework": "1.8.0",
+    "com.mackysoft.serializereference-extensions": "1.7.0",
+    "com.cysharp.unitask": "2.5.11"
+  },
+  "author": {
+    "name": "Payosky",
+    "url": "http://www.payosky.dev",
+    "email": "payosky@proton.me"
+  },
+  "samples": [
+    {
+      "displayName": "Services",
+      "description": "Example scene demonstrating differen Service loaders",
+      "path": "Samples/Services"
+    }
+  ],
+  "hideInEditor": false,
+  "documentationUrl": "https://github.com/JuanDavidPF/Nomai-Framework/blob/main/Packages/com.payosky.nomaiframework/README.md",
+  "changelogUrl": "https://github.com/JuanDavidPF/Nomai-Framework/blob/main/Packages/com.payosky.nomaiframework/CHANGELOG.md",
+  "licensesUrl": "https://github.com/JuanDavidPF/Nomai-Framework/blob/main/Packages/com.payosky.nomaiframework/LICENSE.md"
+}

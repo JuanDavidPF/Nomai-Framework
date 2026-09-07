@@ -1,0 +1,18 @@
+{
+    "name": "Payosky.NomaiFramework.Editor",
+    "rootNamespace": "NomaiFramework.Editor",
+    "references": [
+        "GUID:8b32bf1a839157a419afb48b5e248be9"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

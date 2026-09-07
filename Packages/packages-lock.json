@@ -14,12 +14,12 @@
       "dependencies": {},
       "hash": "5fadcb6564f0c6e988641e2e4a4aba4b6b1caafe"
     },
-    "com.payosky.nomaiframework": {
-      "version": "file:com.payosky.nomaiframework",
+    "com.payosky.nomai-framework": {
+      "version": "file:com.payosky.nomai-framework",
       "depth": 0,
       "source": "embedded",
       "dependencies": {
-        "com.unity.test-framework": "1.6.0",
+        "com.unity.test-framework": "1.8.0",
         "com.mackysoft.serializereference-extensions": "1.7.0",
         "com.cysharp.unitask": "2.5.11"
       }
@@ -45,6 +45,15 @@
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.33"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.inputsystem": {
+      "version": "1.20.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
       },
       "url": "https://packages.unity.com"
     },
